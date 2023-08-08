@@ -53,7 +53,7 @@ export default function Features() {
                 />
               </svg>
               <h4 className="h4 mb-2 text-center">
-                More Than Health Monitoring for Kubenetes
+                More Than Health Monitoring for Kubernetes
               </h4>
               <p className="text-lg text-gray-400 text-center">
                 Galvr is able to collect and visualize a huge variety of metrics
