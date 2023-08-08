@@ -149,8 +149,8 @@ export default function Features() {
               </h4>
               <p className="text-lg text-gray-400 text-center">
                 Follow our step-by-step getting started guide to deploy the
-                Galvr components to your Kubernetes cluster and start visulizing
-                the telemetry data rightaway.
+                Galvr components to your Kubernetes cluster and start
+                visualizing the telemetry data right away.
               </p>
             </div>
 
@@ -193,7 +193,7 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Built-In Instrumentation</h4>
               <p className="text-lg text-gray-400 text-center">
-                Vairous auto-instumentation packages are included to enable
+                Various auto-instrumentation packages are included to enable
                 instrumenting your distributed system without code injection.
               </p>
             </div>
@@ -235,7 +235,7 @@ export default function Features() {
               <h4 className="h4 mb-2">Intuitive Dashboard</h4>
               <p className="text-lg text-gray-400 text-center">
                 An intuitive dashboard is provided to enable searching,
-                filtering and visualzing metrics data from different resources
+                filtering and visualizing metrics data from different resources
                 in your Kubernetes cluster.
               </p>
             </div>
@@ -284,11 +284,10 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Peresistant Storage</h4>
+              <h4 className="h4 mb-2">Persistent Storage</h4>
               <p className="text-lg text-gray-400 text-center">
-                Within-cluster MongoDB database is provided by Galvr to store
-                your metrics data. Availalbe for further data analysis or
-                archive.
+                Within-cluster database is provided by Galvr to store your
+                metrics data. Available for further data analysis or archive.
               </p>
             </div>
           </div>

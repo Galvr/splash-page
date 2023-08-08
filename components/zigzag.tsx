@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-import FeatImage01 from '@/public/images/test.gif';
-import FeatImage02 from '@/public/images/features-03-image-02.png';
-import FeatImage03 from '@/public/images/features-03-image-03.png';
+import SearchingAndFilteringImage from '@/public/images/Searching-and-Filtering.gif';
+import DifferentMetrics from '@/public/images/Different-Metrics.gif';
+import JaegerIntegration from '@/public/images/Jaeger-Integration.gif';
 
 export default function Zigzag() {
   return (
@@ -12,12 +12,12 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
-              Reach goals that matter
+              Everything about your cluster
             </div>
-            <h1 className="h2 mb-4">One product, unlimited solutions</h1>
+            <h1 className="h2 mb-4">See Galvr in Action</h1>
             <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
+              Instrument, connect and go. Visualize the telemetry data for your
+              cluster.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function Zigzag() {
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={FeatImage01}
+                  src={SearchingAndFilteringImage}
                   width={540}
                   height={405}
                   alt="Features 01"
@@ -45,14 +45,16 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Less spend
+                    All-in-one tool
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <h3 className="h3 mb-3">
+                    A Dashboard Accessible via Browsers
+                  </h3>
+                  {/* <p className="text-xl text-gray-400 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
-                  </p>
+                  </p> */}
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
@@ -62,7 +64,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Live data from Kubernetes cluster</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -72,7 +74,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Able to search specific insturmented resource</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -82,7 +84,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>View all metrics in one page</span>
                     </li>
                   </ul>
                 </div>
@@ -98,7 +100,7 @@ export default function Zigzag() {
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={FeatImage02}
+                  src={DifferentMetrics}
                   width={540}
                   height={405}
                   alt="Features 02"
@@ -111,14 +113,14 @@ export default function Zigzag() {
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Less spend
+                    See what's happening under the hood
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <h3 className="h3 mb-3">Interactive Interface</h3>
+                  {/* <p className="text-xl text-gray-400 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
-                  </p>
+                  </p> */}
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
@@ -128,7 +130,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Cover all metrics types per OpenTelemetry</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -138,7 +140,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Automatically group related data together</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -148,7 +150,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Interactive charts to allow data filtering</span>
                     </li>
                   </ul>
                 </div>
@@ -164,7 +166,7 @@ export default function Zigzag() {
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={FeatImage03}
+                  src={JaegerIntegration}
                   width={540}
                   height={405}
                   alt="Features 03"
@@ -177,14 +179,14 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Less spend
+                    We got traces covered as well
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">
+                  <h3 className="h3 mb-3">Integration with Jaeger</h3>
+                  {/* <p className="text-xl text-gray-400 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
-                  </p>
+                  </p> */}
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
@@ -194,7 +196,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Leverage Jaeger to visualize traces data</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -204,7 +206,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>System topology graphs to show dependencies</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -214,7 +216,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Trace view for each individual service</span>
                     </li>
                   </ul>
                 </div>
