@@ -38,6 +38,30 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
+                  href="/#features"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Features
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#demo"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Demo
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#team"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Team
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="https://github.com/oslabs-beta/Galvr"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >

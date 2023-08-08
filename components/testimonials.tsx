@@ -7,16 +7,16 @@ import LinkedInLogo from '@/public/images/linkedIn-logo.svg';
 
 export default function Testimonials() {
   return (
-    <section>
+    <section id="team">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Meet the Team</h2>
-            <p className="text-xl text-gray-400">
+            {/* <p className="text-xl text-gray-400">
               We are a group of software engineers who love to build and solve
               problem collaboratively.
-            </p>
+            </p> */}
           </div>
 
           {/* Testimonials */}
