@@ -20,15 +20,15 @@ module.exports = {
           900: '#151719',
         },
         purple: {
-          100: '#F4F4FF',
-          200: '#E2E1FF',
-          300: '#CBCCFF',
-          400: '#ABABFF',
-          500: '#8D8DFF',
-          600: '#5D5DFF',
-          700: '#4B4ACF',
-          800: '#38379C',
-          900: '#262668',
+          100: '#ffffff',
+          200: '#e4edfb',
+          300: '#cadbf7',
+          400: '#afc9f3',
+          500: '#95b7ef',
+          600: '#6e95d4',
+          700: '#6284bc',
+          800: '#49638d',
+          900: '#31425e',
         },
       },
       spacing: {
@@ -38,7 +38,10 @@ module.exports = {
       },
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
+        'architects-daughter': [
+          'var(--font-architects-daughter)',
+          'sans-serif',
+        ],
       },
       fontSize: {
         xs: '0.75rem',
@@ -53,7 +56,7 @@ module.exports = {
         '6xl': '4rem',
       },
       inset: {
-        'full': '100%',
+        full: '100%',
       },
       letterSpacing: {
         tighter: '-0.02em',
@@ -64,14 +67,12 @@ module.exports = {
         widest: '0.4em',
       },
       minWidth: {
-        '10': '2.5rem',
+        10: '2.5rem',
       },
       scale: {
-        '98': '.98'
+        98: '.98',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
-}
+  plugins: [require('@tailwindcss/forms')],
+};
