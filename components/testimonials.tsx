@@ -2,6 +2,8 @@ import Image from 'next/image';
 
 import YiImage from '@/public/images/Yi.png';
 import SamImage from '@/public/images/Sam.jpg';
+import SharonImage from '@/public/images/Sharon.png';
+import DanielImage from '@/public/images/Daniel.png';
 import GithubLogo from '@/public/images/github-logo-white.svg';
 import LinkedInLogo from '@/public/images/linkedIn-logo.svg';
 
@@ -128,7 +130,7 @@ export default function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <Image
                     className="rounded-full"
-                    src={YiImage}
+                    src={SharonImage}
                     width={240}
                     height={240}
                     alt="Yi Sun"
@@ -136,7 +138,7 @@ export default function Testimonials() {
                 </div>
               </div>
               <div className="text-gray-200 not-italic text-xl mt-3 pt-3 border-t border-gray-700 w-full text-center">
-                Yi Sun
+                Sharon Chen
               </div>
               <div className="text-gray-200 not-italic text-xl pb-1 w-full text-center">
                 Software Engineer
@@ -144,7 +146,7 @@ export default function Testimonials() {
               <div className="flex items-center justify-center w-full">
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out mx-0.5"
-                  href="https://github.com/YiSun88"
+                  href="https://github.com/sc1272"
                 >
                   <Image
                     className="rounded-full"
@@ -156,7 +158,7 @@ export default function Testimonials() {
                 </a>
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out mx-0.5"
-                  href="https://linkedin.com/in/yi-sun-swe"
+                  href="https://www.linkedin.com/in/sharonjchen/"
                 >
                   <Image
                     src={LinkedInLogo}
@@ -177,7 +179,7 @@ export default function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <Image
                     className="rounded-full"
-                    src={YiImage}
+                    src={DanielImage}
                     width={240}
                     height={240}
                     alt="Yi Sun"
@@ -185,7 +187,7 @@ export default function Testimonials() {
                 </div>
               </div>
               <div className="text-gray-200 not-italic text-xl mt-3 pt-3 border-t border-gray-700 w-full text-center">
-                Yi Sun
+                Daniel Jaworski
               </div>
               <div className="text-gray-200 not-italic text-xl pb-1 w-full text-center">
                 Software Engineer
@@ -193,7 +195,7 @@ export default function Testimonials() {
               <div className="flex items-center justify-center w-full">
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out mx-0.5"
-                  href="https://github.com/YiSun88"
+                  href="https://github.com/Djaworski1"
                 >
                   <Image
                     className="rounded-full"
@@ -205,7 +207,7 @@ export default function Testimonials() {
                 </a>
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out mx-0.5"
-                  href="https://linkedin.com/in/yi-sun-swe"
+                  href="https://www.linkedin.com/in/jaworskidaniel"
                 >
                   <Image
                     src={LinkedInLogo}
