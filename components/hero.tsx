@@ -1,6 +1,3 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg';
-import ModalVideo from '@/components/modal-video';
-
 export default function Hero() {
   return (
     <section>
@@ -62,7 +59,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-white bg-purple-600 hover:bg-purple-800 w-full mb-4 sm:w-auto sm:mb-0 rounded-lg"
-                  href="https://github.com/oslabs-beta/Galvr"
+                  href="https://github.com/oslabs-beta/Galvr#quick-start"
                 >
                   Get Started
                 </a>

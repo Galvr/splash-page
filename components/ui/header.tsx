@@ -70,7 +70,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://www.linkedin.com/company/galvr"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   LinkedIn
@@ -87,7 +87,7 @@ export default function Header() {
             </ul>
           </nav>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
         </div>
       </div>
     </header>
