@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import YiImage from '@/public/images/Yi.png';
+import YiImage from '@/public/images/Yi.jpg';
 import SamImage from '@/public/images/Sam.jpg';
 import SharonImage from '@/public/images/Sharon.png';
 import DanielImage from '@/public/images/Daniel.png';
